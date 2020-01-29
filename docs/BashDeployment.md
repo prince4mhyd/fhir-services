@@ -1,13 +1,13 @@
 # Microsoft FHIR Server Deployment using Bash
 
-This document describes how to deploy the [Microsoft Open Source FHIR Server](https://github.com/Microsoft/fhir-server). The deployment is a two-step process:
+This document describes how to deploy the [Microsoft Open Source FHIR Server](https://github.com/prince4mhyd/fhir-services). The deployment is a two-step process:
 
 1. (Optional) Create and Azure Active Directory (AAD) Application registration to secure access to the FHIR server. 
 2. Deploy Cosmos DB, Azure Web App, and source code using an Azure Resource Manager template. 
 
 ## Azure Active Directory (AAD) Application Registration
 
-Azure Active Directory (AAD) application registrations can be created in the Azure portal, but the repository also contains some [bash helper scripts](https://github.com/Microsoft/fhir-server/tree/master/samples/scripts/bash) to assist with the application registration process on the command line:
+Azure Active Directory (AAD) application registrations can be created in the Azure portal, but the repository also contains some [bash helper scripts](https://github.com/prince4mhyd/fhir-services/tree/master/samples/scripts/bash) to assist with the application registration process on the command line:
 
 ```bash
 #Make sure you are signed in:
