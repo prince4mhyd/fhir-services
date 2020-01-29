@@ -65,7 +65,7 @@
         },
         "repositoryUrl": {
             "type": "string",
-            "defaultValue": "https://github.com/Microsoft/fhir-server",
+            "defaultValue": "https://github.com/prince4mhyd/fhir-services",
             "metadata": {
                 "description": "Respository to pull source code from. If blank, source code will not be deployed."
             }
