@@ -1,6 +1,6 @@
 # Microsoft Open Source FHIR Server Deployment
 
-This document describes how to deploy the [Microsoft Open Source FHIR Server](https://github.com/Microsoft/fhir-server). The deployment is a two-step process:
+This document describes how to deploy the [Microsoft Open Source FHIR Server](https://github.com/prince4mhyd/fhir-services). The deployment is a two-step process:
 
 1. (Optional) Create and Azure Active Directory (AAD) Application registration to secure access to the FHIR server. 
 2. Deploy Cosmos DB, Azure Web App, and source code using an Azure Resource Manager template. 
